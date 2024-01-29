@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     path: "third",
     element: <div>Third page</div>,
   },
-]);
+], {basename: "/example-react-router"});
 
 function App() {
   return (
